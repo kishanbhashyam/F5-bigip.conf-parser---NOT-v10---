@@ -11,30 +11,30 @@
 printf "\n"
 printf "\n"
 printf "\n"
-cat /home/t816874/F5conf/LBList.txt
+cat /..../......./F5conf/LBList.txt
 printf "\n"
 printf "\n"
 printf "\n"
 #printf "Load Balancer list printed Successfully"
 
 #MAKE UNZIP FOLDER AVAILABLE FOR LB CONFIG
-rm -r -f /home/t816874/F5conf/unzip
-mkdir /home/t816874/F5conf/unzip
-chmod 777 /home/t816874/F5conf/unzip
+rm -r -f /..../......./F5conf/unzip
+mkdir /..../......./F5conf/unzip
+chmod 777 /..../......./F5conf/unzip
 #printf "Fresh unzip folder made available"
 
 #IMPORT .UCS FILE
 read -p "Enter LB Name:" LB
-cp /home/t816874/F5conf/F5LoadBalancers/$LB/* /home/t816874/F5conf/unzip/
+cp /..../......./F5conf/F5LoadBalancers/$LB/* /..../......./F5conf/unzip/
 #printf ".UCS File Copied succssfully"
 
 #UNZIP .UCS FILE
-cd /home/t816874/F5conf/unzip/
-tar -xvzf /home/t816874/F5conf/unzip/*
+cd /..../......./F5conf/unzip/
+tar -xvzf /..../......./F5conf/unzip/*
 #printf ".UCS file unzipped successfully to /home/t816874/F5conf/unzip/*"
 
 #Static Variable
-SOCDIR=/home/t816874/F5conf/
+SOCDIR=/..../......./F5conf/
 DATE=$(date +%Y-%m-%d)
 LOGFILE=$SOCDIR/F5Output/f5script.log
 
