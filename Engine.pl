@@ -1,5 +1,5 @@
 #!/usr/bin/perl -w
-# Purpose: This script will parse the TCNZ F5 backup config and extract useful info out of it.
+# Purpose: This script will parse the F5 backup config and extract useful info out of it.
 #
 # USAGE: ./Engine.pl *.bigip.conf
 #
